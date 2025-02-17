@@ -20,4 +20,8 @@ from rest_framework_simplejwt import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('auth/',include('djoser.urls')),
+    path('auth/token/', views.TokenObtainPairView.as_view(), name="jwt-create"),
+    path('auth/token/refresh/', views.TokenRefreshView.as_view(), name="jwt-refresh"),
+    path('auth/token/verify/', views.TokenVerifyView.as_view(), name="jwt-verify"),
 ]
