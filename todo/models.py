@@ -13,4 +13,4 @@ class Todo(models.Model):
         return self.title 
     
     class Meta:
-        ordering = ['complate','created_at'] 
+        ordering = ['completed','created_at'] 
