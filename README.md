@@ -62,4 +62,4 @@ Follow these steps to set up the project locally:
     ```   
 
 ### Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+Contributions are welcome! If you'd like to contribute.
