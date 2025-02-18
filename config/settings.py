@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     #3rd party packages
     'rest_framework',
     'djoser',
+    'drf_yasg',
 
     #myapps 
     'users',
